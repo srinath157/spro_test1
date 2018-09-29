@@ -15,3 +15,10 @@ x = tree()
 
 x['a']['b']['c'] = 1
 print(x)
+
+
+y = Tree()
+
+y['x']['y']['z'] = 'switch-name'
+
+print(y)
