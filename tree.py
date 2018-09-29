@@ -11,3 +11,7 @@ def dict_fill(obj, key):
 
 tree = type('_obj', (dict,), dict(__missing__=lambda self, key: dict_fill(self, key)))
 
+x = tree()
+
+x['a']['b']['c'] = 1
+print(x)
