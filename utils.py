@@ -6,7 +6,6 @@ class NestedDict(dict):
         value = self[key] = type(self)()
         return value
 
-
 # merge two nested dictionaries Dict and dict2
 def dict_merge(dict1, dict2):
     merged_dict = {}
